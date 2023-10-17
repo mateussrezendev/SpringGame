@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
+
+:root {
+  --ff-parisienne: "Parisienne", cursive;
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-lora: "Lora", serif;
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-rubik-dirt: "Rubik Dirt", cursive;
+}
+
+
+body,
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: var(--ff-roboto);
+  color: #333; 
+  background-color: #fef7d5;
+}
+
+.nav-links li {
+  margin: 0px 15px;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.header-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.header-content button {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background: #0ec0c1; /* Cor do botão */
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.header-content button:hover {
+  background: #8ac7de; /* Cor do botão ao passar o mouse */
+}
+
+/* Seção Desafio */
+.NossaHistory {
+  background: #f9f9f9; /* Cor de fundo da seção */
+  padding: 50px 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input,
+.container button {
+  font-family: var(--ff-roboto);
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.container input {
+  width: 100px;
+}
+
+/* teste */
+
+/* Segundo Desafio */
+.conteudo {
+  font-family: var(--ff-lora);
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 8rem;
+  position: relative;
+  z-index: 1;
+  padding: 2rem 17px;
+  margin: auto;
+}
+
+.conteudo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2.5px);
+  border-radius: 0.5rem;
+}
+
+.conteudo h1 {
+  /* width: 100%; */
+  font-size: calc(2.2rem + 1vw);
+  letter-spacing: 0.3rem;
+  margin: auto;
+}
+.conteudo .line {
+  margin-bottom: 50px;
+}
+
+.conteudo p {
+  color: rgb(221, 221, 221);
+  max-width: 65ch;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0px 35px;
+}
+
+.conteudo .ctn {
+  margin: 17px auto;
+  padding: 12px 27px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color:#8ac7de;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #0ec0c1;
+  }
+  
+  button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #0ce3e8;
+  }
